@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.webgl {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    outline: none;
+}
+
+.bg {
+    position: fixed;
+    width: 0vw;
+    height: 100vh;
+    z-index: 100;
+    background-color: #fff;
+    mix-blend-mode: difference;
+}
+
+.bg2 {
+    position: fixed;
+    width: 100vw;
+    height: 50vh;
+    z-index: 100;
+    background-color: #fff;
+    mix-blend-mode: difference;
+}
+
+
+.text1 {
+    position: fixed;
+    width: 100vw;
+    height: 50vh;
+    z-index: 100;
+    color: #fff;
+    mix-blend-mode: difference;
+}
